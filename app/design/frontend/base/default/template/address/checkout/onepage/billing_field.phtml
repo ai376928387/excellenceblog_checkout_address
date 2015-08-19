@@ -1,0 +1,8 @@
+<div class="field">
+    <label for="billing:delivery_instruction" class="required">
+        <?php echo $this->__('Delivery Instructions') ?>
+    </label>
+    <div class="input-box">
+        <input type="text" name="billing[delivery_instruction]" id="billing:delivery_instruction" value="<?php echo $this->escapeHtml($this->getAddress()->getDeliveryInstruction()) ?>" title="<?php echo $this->__('Delivery Instructions') ?>" class="input-text required-entry" />
+    </div>
+</div>
